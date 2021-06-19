@@ -1,0 +1,68 @@
+version: '3.7'
+
+services:
+    api:
+        # depends_on:
+        # - mongodb
+        container_name: api
+        restart: always
+        build:
+            context: ./api
+            dockerfile: Dockerfile
+        environment:
+            NODE_ENV:
+                production
+                # # - MONGODB_URI=mongodb://mongodb:27017
+                # # - MONGODB_USERNAME=root
+                # # - MONGODB_PASSWORD=live-staging-secret
+                # # - SECRET_KEY=live-staging-secret
+        volumes:
+            - ./api:/usr/src/app
+            - /usr/src/app/node_modules
+        ports:
+            - 8080:8080
+        networks:
+            - backend
+        # networks:
+        #     - backend
+
+    livesteaming:
+        # image: livesteaming
+        depends_on:
+            - api
+        container_name: www
+        build:
+            context: ./www
+            dockerfile: Dockerfile
+        # build: .
+        volumes:
+            - ./admin:/usr/src/app
+            - /usr/src/app/node_modules
+        environment:
+            NODE_ENV: production
+            NUXT_PORT: 8081
+        ports:
+            - 8081:8081
+        networks:
+            - backend
+
+    admin:
+        depends_on:
+            - api
+        container_name: admin
+        build:
+            context: ./admin
+            dockerfile: Dockerfile
+        # build: .
+        volumes:
+            - ./admin:/usr/src/app
+            - /usr/src/app/node_modules
+        # environment:
+        # NODE_ENV: production
+        # NUXT_PORT: 8082
+        ports:
+            - 3003:3003
+        networks:
+            - backend
+networks:
+    backend:

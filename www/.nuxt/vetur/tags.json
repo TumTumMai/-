@@ -1,0 +1,20 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "NavbarWhite": {
+    "description": "Auto imported from components/navbar_white.vue"
+  },
+  "LazyNavbarWhite": {
+    "description": "Auto imported from components/navbar_white.vue"
+  }
+}

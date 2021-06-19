@@ -1,0 +1,116 @@
+[
+  {
+    "name": "address",
+    "path": "/address",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\address.vue",
+    "chunkName": "pages/address"
+  },
+  {
+    "name": "Chat_with_Sales",
+    "path": "/Chat_with_Sales",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\Chat_with_Sales.vue",
+    "chunkName": "pages/Chat_with_Sales"
+  },
+  {
+    "name": "checkout",
+    "path": "/checkout",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\checkout.vue",
+    "chunkName": "pages/checkout"
+  },
+  {
+    "name": "confirmpayment",
+    "path": "/confirmpayment",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\confirmpayment.vue",
+    "chunkName": "pages/confirmpayment"
+  },
+  {
+    "name": "Livestream",
+    "path": "/Livestream",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\Livestream.vue",
+    "chunkName": "pages/Livestream"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "mycart",
+    "path": "/mycart",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\mycart.vue",
+    "chunkName": "pages/mycart"
+  },
+  {
+    "name": "payment",
+    "path": "/payment",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\payment.vue",
+    "chunkName": "pages/payment"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
+  },
+  {
+    "name": "unkonw",
+    "path": "/unkonw",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\unkonw.vue",
+    "chunkName": "pages/unkonw"
+  },
+  {
+    "name": "categories-food",
+    "path": "/categories/food",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\categories\\\\food.vue",
+    "chunkName": "pages/categories/food"
+  },
+  {
+    "name": "categories-technology",
+    "path": "/categories/technology",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\categories\\\\technology.vue",
+    "chunkName": "pages/categories/technology"
+  },
+  {
+    "name": "categories-vehicle",
+    "path": "/categories/vehicle",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\categories\\\\vehicle.vue",
+    "chunkName": "pages/categories/vehicle"
+  },
+  {
+    "name": "event-booth-BrochureName",
+    "path": "/event/booth/:BrochureName?",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\event\\\\booth\\\\_BrochureName.vue",
+    "chunkName": "pages/event/booth/_BrochureName"
+  },
+  {
+    "name": "categories-id",
+    "path": "/categories/:id?",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\categories\\\\_id.vue",
+    "chunkName": "pages/categories/_id"
+  },
+  {
+    "name": "content-id",
+    "path": "/content/:id?",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\content\\\\_id.vue",
+    "chunkName": "pages/content/_id"
+  },
+  {
+    "name": "event-boothName",
+    "path": "/event/:boothName?",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\event\\\\_boothName.vue",
+    "chunkName": "pages/event/_boothName"
+  },
+  {
+    "name": "categories-categoryname-id",
+    "path": "/categories/:categoryname?/:id?",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\categories\\\\_categoryname\\\\_id.vue",
+    "chunkName": "pages/categories/_categoryname/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Emperor\\\\Desktop\\\\New folder (3)\\\\www\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
